@@ -1,6 +1,6 @@
 # Jest vs. Node 8.3.0
 
-Jest 20.0.4 doesn't work with code that uses object rest/spread properties, which is now [enabled by default in Node 8.3.0](http://node.green/#ESNEXT-candidate--stage-3--object-rest-spread-properties).
+[Jest](http://facebook.github.io/jest/) [20.0.4](https://github.com/facebook/jest/releases/tag/v20.0.4) doesn't work with code that uses object rest/spread properties, which is now [enabled by default in Node 8.3.0](http://node.green/#ESNEXT-candidate--stage-3--object-rest-spread-properties).
 
 After cloning this repo locally and then going into its directory, install Jest by running
 
@@ -27,3 +27,7 @@ To see how Jest behaves, run
 ```bash
 yarn test
 ```
+
+----
+
+Here's the associated [issue thread](https://github.com/facebook/jest/issues/4248).
